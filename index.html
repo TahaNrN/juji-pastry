@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%2790%27 font-size=%2790%27>🐥</text></svg>">
+    <title>Juji Bakery – Small Bites, Big Happiness</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Caveat:wght@500;600&family=Vazirmatn:wght@400;500;700&family=Lalezar&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <symbol id="chick" viewBox="0 0 100 100">
+                <ellipse cx="30" cy="92" rx="9" ry="3" fill="#f0a83a" />
+                <ellipse cx="70" cy="92" rx="9" ry="3" fill="#f0a83a" />
+                <circle cx="50" cy="56" r="36" fill="#ffd95e" />
+                <path d="M44 22c-3-9 2-14 7-12 1 4 6 3 6 10-4-2-9-1-13 2z" fill="#ff9a4d" />
+                <ellipse cx="14" cy="60" rx="8" ry="12" fill="#f7c93e" />
+                <ellipse cx="86" cy="60" rx="8" ry="12" fill="#f7c93e" />
+                <circle cx="36" cy="52" r="4.5" fill="#3a2212" />
+                <circle cx="64" cy="52" r="4.5" fill="#3a2212" />
+                <circle cx="37.5" cy="50.5" r="1.4" fill="#fff" />
+                <circle cx="65.5" cy="50.5" r="1.4" fill="#fff" />
+                <ellipse cx="27" cy="62" rx="6" ry="4" fill="#ff9fa0" opacity=".7" />
+                <ellipse cx="73" cy="62" rx="6" ry="4" fill="#ff9fa0" opacity=".7" />
+                <path d="M45 58h10l-5 7z" fill="#ff9a4d" />
+            </symbol>
+        </defs>
+    </svg>
+
+    <header>
+        <div class="welcome" aria-hidden="true"><svg viewBox="0 0 240 190">
+                <use href="#chick" x="55" y="4" width="130" height="130" />
+                <ellipse cx="100" cy="176" rx="11" ry="4" fill="#f0a83a" />
+                <ellipse cx="140" cy="176" rx="11" ry="4" fill="#f0a83a" />
+                <g class="sg">
+                    <rect x="30" y="92" width="180" height="78" rx="8" fill="#d8b07a" stroke="#b98d55"
+                        stroke-width="4" />
+                    <rect x="30" y="92" width="180" height="10" rx="5" fill="#c99d64" opacity=".6" /><text x="120"
+                        y="145" text-anchor="middle" font-family="Fredoka,Trebuchet MS,sans-serif" font-size="38"
+                        font-weight="600" fill="#4d2d1a">Welcome</text>
+                    <ellipse class="wl" cx="34" cy="122" rx="13" ry="18" fill="#f7c93e" />
+                    <ellipse class="wr" cx="206" cy="122" rx="13" ry="18" fill="#f7c93e" />
+                </g>
+            </svg></div>
+        <h1 class="logo">juji<svg class="top" viewBox="0 0 100 100">
+                <use href="#chick" />
+            </svg></h1>
+        <p class="sub">Bakery</p>
+        <p class="tag">Small Bites ♥ Big Happiness</p>
+        <nav aria-label="Main"><a href="#menu">Menu</a><a href="/about.html">About</a></nav>
+    </header>
+
+    <main>
+        <div id="menu">
+            <div class="grid" id="grid"></div>
+        </div>
+
+    </main>
+
+    <div class="walk" aria-hidden="true">
+        <div class="walker"><svg viewBox="0 0 100 100">
+                <use href="#chick" />
+            </svg></div>
+        <div class="walker b"><svg viewBox="0 0 100 100">
+                <use href="#chick" />
+            </svg></div>
+        <div class="walker c"><svg viewBox="0 0 100 100">
+                <use href="#chick" />
+            </svg></div>
+    </div>
+
+    <div class="overlay" id="ov" role="dialog" aria-modal="true" aria-labelledby="mt">
+        <div class="modal" dir="rtl" lang="fa">
+            <svg class="m" viewBox="0 0 100 100">
+                <use href="#chick" />
+            </svg>
+            <button class="x" id="x" aria-label="Close">×</button>
+            <h2 id="mt"></h2>
+            <p id="mp"></p>
+            <button class="close" id="ok">باشه</button>
+            <a class="insta" id="ig" href="https://www.instagram.com/juji_pastry/">
+                Instagram
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
